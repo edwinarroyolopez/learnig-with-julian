@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura Epm</title>
+    <style type="text/css">
+        .container {
+            border: solid 2px #79d400;
+            margin: auto;
+            padding: 2px;
+            text-align: center;
+            width: 500px;
+        }
+        .title{
+            background: #1e8e27;
+            color: #fff;
+            font-size: 12px;
+        }
+        .table-data{
+            border: solid 2px #cbd516;
+            margin: 5px;
+            width: 80%;
+        }
+        .energy{
+            background: #ffc107;
+            color: #fff;
+            font-weight: bold;
+        }
+        .venced{
+            background: #ff5722;
+            font-weight: bold;
+        }
+        .other{
+            background: #ffeb3b;
+            font-weight: bold;
+        }
+        .title-table{
+            border: solid 2px #ffc107;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="title">
+            Número de facturación
+        </div>
+        <table class="table-data">
+            <tr>
+                <td></td>
+                <td>Consumos</td>
+                <td>Valor a pagar</td>
+            </tr>
+            <tr>
+                <td>Energía</td>
+                <td>65 kbwh</td>
+                <td class="energy">$ 19.885</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="title-table">Cuentas vencidas</td>
+                <td class="venced">$ 55.785</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="title-table">Otras entidades</td>
+                <td class="other">$ 16.638</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
